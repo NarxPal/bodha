@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bodha-h1{
+
+}
+
+.bodha-p{
+    
+}
+
+
+.bodha-container {
+  @apply text-white;
+}
+
+.bodha-buttonDiv {
+  @apply p-2 mb-2 font-semibold border-t-2 border-b-2 border-l-2 cursor-pointer bg-dark border-stone-400 rounded-l-md; 
+}
+
+.bodha-starsIcon{
+    @apply w-5 h-5
+}
+
+.bodha-overlay{
+    @apply fixed right-0 bg-dark bottom-12 h-[75%] w-[20%] m-2 rounded-md border-2 border-lightGray p-4
+}
+
+
+.bodha-featureModeContainer {
+    @apply flex flex-row items-center justify-end space-x-6;
+  }
+  
+  .bodha-featureBox {
+    @apply h-12 rounded-xl bg-lightGray;
+  }
+  
+  .bodha-featureBtnDiv {
+    @apply flex items-center w-full h-full;
+  }
+  
+  .bodha-btn {
+    @apply px-4 py-3 rounded-xl hover:bg-indigo hover:text-white hover:transition hover:ease-in-out hover:-translate-y-1;
+  }
+  
+  .bodha-modeBtnDiv {
+    @apply w-auto h-12 rounded-full bg-lightGray;
+  }
+  
+  .bodha-modeBtn {
+    @apply flex flex-row items-center justify-between w-full h-full;
+  }
+  
+  .bodha-icon {
+    @apply flex w-[25px] h-[25px];
+  }
+  
+  .bodha-iconDiv {
+    @apply p-3 rounded-full cursor-pointer hover:bg-indigo hover:shadow-md;
+  }
